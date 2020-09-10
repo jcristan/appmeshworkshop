@@ -23,7 +23,7 @@ helm repo list | grep eks-charts
 Create the `appmesh-system` namespace and attach IAM Policies for AWS App Mesh and AWS Cloud Map access.
 
 {{% notice tip %}}
-If you are new to the `IAM Roles for Service Accounts (IRSA)` concept, [Click here](/beginner/110_irsa/) for me information.
+If you are new to the `IAM Roles for Service Accounts (IRSA)` concept, [Click here](https://www.eksworkshop.com/beginner/110_irsa/) for me information.
 {{% /notice %}}
 
 ```bash
